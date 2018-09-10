@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2018-09-01T08:31:30Z" cacheDuration="PT1536222690S" entityID="http://4aacb411.ngrok.io">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICjjCCAfegAwIBAgIBADANBgkqhkiG9w0BAQ0FADBkMQswCQYDVQQGEwJwaDENMAsGA1UECAwEQ2VidTEPMA0GA1UECgwGV2VicmlRMSEwHwYDVQQDDBhodHRwOi8vNGFhY2I0MTEubmdyb2suaW8xEjAQBgNVBAcMCUNlYnUgQ2l0eTAeFw0xODA4MzAwMzAxNTVaFw0xOTA4MzAwMzAxNTVaMGQxCzAJBgNVBAYTAnBoMQ0wCwYDVQQIDARDZWJ1MQ8wDQYDVQQKDAZXZWJyaVExITAfBgNVBAMMGGh0dHA6Ly80YWFjYjQxMS5uZ3Jvay5pbzESMBAGA1UEBwwJQ2VidSBDaXR5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxkrSOfHotbAGZNgo14oFXf0dqJzxBF0fi7LAArIo8KiULaTc4ao6GtxFlzaD4OHAJzn7O6mqNi/z/XKS6YufZkc1HzFPdyw4wUZymr0lhtvbbVW70I1S2n3IbT0UKdKkS25B49hoqA9A5CK1v/y2t8Vdwq7Xg9FfGzHx0gdha6QIDAQABo1AwTjAdBgNVHQ4EFgQUb4bvsj+z/pMxvcUephms7fwe4bkwHwYDVR0jBBgwFoAUb4bvsj+z/pMxvcUephms7fwe4bkwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOBgQCn80t46/IMVp/n07HejXWu5K8mZUrApaOtYaULcvKwA9WA1llrUy8Eq9TJHKtEUKUld5ya6qkoTmGPJ7mZKJJNdMGQWm2i4fSqsvS4776C0Azy31DnHu4D/nFVBzjWHUg3GbLRVzeqn5AjxcVANgTl3IJBUph88M8KkuR9el6gkw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICjjCCAfegAwIBAgIBADANBgkqhkiG9w0BAQ0FADBkMQswCQYDVQQGEwJwaDENMAsGA1UECAwEQ2VidTEPMA0GA1UECgwGV2VicmlRMSEwHwYDVQQDDBhodHRwOi8vNGFhY2I0MTEubmdyb2suaW8xEjAQBgNVBAcMCUNlYnUgQ2l0eTAeFw0xODA4MzAwMzAxNTVaFw0xOTA4MzAwMzAxNTVaMGQxCzAJBgNVBAYTAnBoMQ0wCwYDVQQIDARDZWJ1MQ8wDQYDVQQKDAZXZWJyaVExITAfBgNVBAMMGGh0dHA6Ly80YWFjYjQxMS5uZ3Jvay5pbzESMBAGA1UEBwwJQ2VidSBDaXR5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxkrSOfHotbAGZNgo14oFXf0dqJzxBF0fi7LAArIo8KiULaTc4ao6GtxFlzaD4OHAJzn7O6mqNi/z/XKS6YufZkc1HzFPdyw4wUZymr0lhtvbbVW70I1S2n3IbT0UKdKkS25B49hoqA9A5CK1v/y2t8Vdwq7Xg9FfGzHx0gdha6QIDAQABo1AwTjAdBgNVHQ4EFgQUb4bvsj+z/pMxvcUephms7fwe4bkwHwYDVR0jBBgwFoAUb4bvsj+z/pMxvcUephms7fwe4bkwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOBgQCn80t46/IMVp/n07HejXWu5K8mZUrApaOtYaULcvKwA9WA1llrUy8Eq9TJHKtEUKUld5ya6qkoTmGPJ7mZKJJNdMGQWm2i4fSqsvS4776C0Azy31DnHu4D/nFVBzjWHUg3GbLRVzeqn5AjxcVANgTl3IJBUph88M8KkuR9el6gkw==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://4aacb411.ngrok.io/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://4aacb411.ngrok.io/login"/>
+  </md:IDPSSODescriptor>
+</md:EntityDescriptor>
