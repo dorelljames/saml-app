@@ -11,7 +11,7 @@ The package is based on [Dustin Parham's guide to implement a SAML IDP with lara
 Using ```composer```: 
 
 ``` 
-composer require "dorelljames/laravel-saml":"dev-master"
+composer require "dorelljames/laravel-saml-5.1":"dev-master"
 ```
 
 #### Lightsaml dependency problem

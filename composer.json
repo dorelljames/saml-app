@@ -1,5 +1,5 @@
 {
-    "name": "dorelljames/laravel-saml",
+    "name": "dorelljames/laravel-saml-5.1",
     "description":
         "SAML support to make a laravel application to both a SAML IDP and a SAML SP. Tested on Laravel 5.1",
     "keywords": [
